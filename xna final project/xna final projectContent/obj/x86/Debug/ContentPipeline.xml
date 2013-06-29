@@ -1,0 +1,316 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Images\enemy.png</Source>
+      <Name>Images\enemy</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\enemy.xnb</Output>
+      <Time>2013-06-27T17:59:26.8969624+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\explosion.png</Source>
+      <Name>Images\explosion</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\explosion.xnb</Output>
+      <Time>2013-06-27T17:59:26.9159635+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\ship_balance.png</Source>
+      <Name>Images\ship_balance</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_balance.xnb</Output>
+      <Time>2013-06-28T07:34:32.2213364+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\ship_left.png</Source>
+      <Name>Images\ship_left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_left.xnb</Output>
+      <Time>2013-06-27T20:50:52.4581453+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\ship_move_foward.png</Source>
+      <Name>Images\ship_move_foward</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_move_foward.xnb</Output>
+      <Time>2013-06-28T07:34:32.1563327+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\ship_move_left.png</Source>
+      <Name>Images\ship_move_left</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_move_left.xnb</Output>
+      <Time>2013-06-28T07:34:32.2043354+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\ship_move_right.png</Source>
+      <Name>Images\ship_move_right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_move_right.xnb</Output>
+      <Time>2013-06-28T07:34:32.2193363+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\ship_right.png</Source>
+      <Name>Images\ship_right</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_right.xnb</Output>
+      <Time>2013-06-27T20:50:52.435144+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\enemy_edited.png</Source>
+      <Name>Images\enemy_edited</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\enemy_edited.xnb</Output>
+      <Time>2013-06-27T21:00:11.4801195+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\background.png</Source>
+      <Name>Images\background</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\background.xnb</Output>
+      <Time>2013-06-27T12:08:13.8338266+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\blank.png</Source>
+      <Name>Images\blank</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\blank.xnb</Output>
+      <Time>2013-06-27T12:08:13.8528277+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\gradient.png</Source>
+      <Name>Images\gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\gradient.xnb</Output>
+      <Time>2013-06-27T12:08:13.8658284+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\gamefont.spritefont</Source>
+      <Name>Fonts\gamefont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Fonts\gamefont.xnb</Output>
+      <Time>2013-06-27T12:09:19.7495968+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Fonts\menufont.spritefont</Source>
+      <Name>Fonts\menufont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Fonts\menufont.xnb</Output>
+      <Time>2013-06-27T12:09:19.7505968+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bullet_sheet.png</Source>
+      <Name>Images\bullet_sheet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\bullet_sheet.xnb</Output>
+      <Time>2013-06-28T07:20:45.5880557+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\HomingMissile.png</Source>
+      <Name>Images\HomingMissile</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\HomingMissile.xnb</Output>
+      <Time>2013-06-28T07:20:45.5920559+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bullet.png</Source>
+      <Name>Images\bullet</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\bullet.xnb</Output>
+      <Time>2013-06-28T07:28:23.4602445+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bullet_fire.png</Source>
+      <Name>Images\bullet_fire</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\bullet_fire.xnb</Output>
+      <Time>2013-06-28T07:43:52.334373+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\bullet_fired.png</Source>
+      <Name>Images\bullet_fired</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\bullet_fired.xnb</Output>
+      <Time>2013-06-28T07:44:35.132821+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\explosion_blue.png</Source>
+      <Name>Images\explosion_blue</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\explosion_blue.xnb</Output>
+      <Time>2013-06-28T08:46:52.0205587+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\explosion_red.png</Source>
+      <Name>Images\explosion_red</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\explosion_red.xnb</Output>
+      <Time>2013-06-28T08:46:52.0215588+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\explosion_green_small.png</Source>
+      <Name>Images\explosion_green_small</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\explosion_green_small.xnb</Output>
+      <Time>2013-06-28T08:48:57.9977642+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\explosion_red_small.png</Source>
+      <Name>Images\explosion_red_small</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\explosion_red_small.xnb</Output>
+      <Time>2013-06-28T08:48:57.9967642+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\background_space.png</Source>
+      <Name>Images\background_space</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\background_space.xnb</Output>
+      <Time>2013-06-29T10:12:50.6476215+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\boom.wav</Source>
+      <Name>Sounds\boom</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Sounds\boom.xnb</Output>
+      <Time>2013-06-29T10:15:39.530281+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\ship_shooting.wav</Source>
+      <Name>Sounds\ship_shooting</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Sounds\ship_shooting.xnb</Output>
+      <Time>2013-06-29T10:58:20.2197441+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\enemy_burning.wav</Source>
+      <Name>Sounds\enemy_burning</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Sounds\enemy_burning.xnb</Output>
+      <Time>2013-06-29T11:01:32.9287664+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\background004.png</Source>
+      <Name>Images\background004</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\background004.xnb</Output>
+      <Time>2013-06-29T11:12:19.2387332+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\background005.png</Source>
+      <Name>Images\background005</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\background005.xnb</Output>
+      <Time>2013-06-29T11:12:19.2357331+07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\player_explosion.wav</Source>
+      <Name>Sounds\player_explosion</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Sounds\player_explosion.xnb</Output>
+      <Time>2013-06-29T11:32:12.2559699+07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>Reach</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>E:\Projects\Visual Studio\xna final project\xna final project\xna final projectContent\</RootDirectory>
+      <LoggerRootDirectory>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\</LoggerRootDirectory>
+      <IntermediateDirectory>E:\Projects\Visual Studio\xna final project\xna final project\xna final projectContent\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2010-08-23T12:41:18+07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2010-08-23T12:41:18+07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2013-05-22T21:05:54.7426535+07:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

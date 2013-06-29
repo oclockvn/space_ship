@@ -1,0 +1,56 @@
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\obj\x86\Debug\ResolveAssemblyReference.cache
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\xna final project.exe
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\xna final project.pdb
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\obj\x86\Debug\xna final project.exe
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\obj\x86\Debug\xna final project.pdb
+F:\My Documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\background.xnb
+F:\My Documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\blank.xnb
+F:\My Documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\gradient.xnb
+F:\My Documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\gamefont.xnb
+F:\My Documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\menufont.xnb
+F:\My Documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\enemy.xnb
+F:\My Documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\explosion.xnb
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_balance.xnb
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_left.xnb
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_move_foward.xnb
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_move_left.xnb
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_move_right.xnb
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_right.xnb
+f:\my documents\Projects\C#\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\enemy_edited.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\enemy.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\explosion.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_balance.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_left.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_move_foward.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_move_left.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_move_right.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\ship_right.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\enemy_edited.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\xna final project.exe
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\xna final project.pdb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\obj\x86\Debug\xna final project.exe
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\obj\x86\Debug\xna final project.pdb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\background.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\blank.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\gradient.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Fonts\gamefont.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Fonts\menufont.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\bullet_sheet.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\HomingMissile.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\bullet.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\bullet_fire.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\bullet_fired.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\explosion_blue.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\explosion_red.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\explosion_green_small.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\explosion_red_small.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\background_space.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Sounds\boom.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Sounds\ship_shooting.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Sounds\enemy_burning.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\background004.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Images\background005.xnb
+E:\Projects\Visual Studio\xna final project\xna final project\xna final project\bin\x86\Debug\Content\Sounds\player_explosion.xnb

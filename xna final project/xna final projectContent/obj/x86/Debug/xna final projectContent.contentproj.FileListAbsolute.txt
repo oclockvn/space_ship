@@ -1,0 +1,2 @@
+f:\my documents\Projects\C#\xna final project\xna final project\xna final projectContent\obj\x86\Debug\ResolveAssemblyReference.cache
+E:\Projects\Visual Studio\xna final project\xna final project\xna final projectContent\obj\x86\Debug\ResolveAssemblyReference.cache
