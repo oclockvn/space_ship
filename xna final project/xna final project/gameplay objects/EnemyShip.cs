@@ -30,6 +30,7 @@ namespace xna_final_project.gameplay_objects
         public void LoadContent(ContentManager content)
         {
             texture = content.Load<Texture2D>("Images/enemy_edited");
+            //texture = content.Load<Texture2D>("Images/boss");
             this.location = new Vector2(random.Next(20, 830), random.Next(-60, 0));
             this.velocity = random.Next(2, 5);            
         }

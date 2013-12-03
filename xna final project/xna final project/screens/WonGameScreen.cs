@@ -3,28 +3,27 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Xna.Framework;
-using xna_final_project.screen_manager;
 
 namespace xna_final_project.screens
 {
-    class MainMenuScreen : MenuScreen
+    class WonGameScreen : MenuScreen
     {
         #region Initialization
 
 
-        public MainMenuScreen()
+        public WonGameScreen()
             : base("Main Menu")
         {            
-            MenuEntry playGameMenuEntry = new MenuEntry("Play Game");
-            MenuEntry optionsMenuEntry = new MenuEntry("Information");
+            MenuEntry playGameMenuEntry = new MenuEntry("YOU WON! Play AGain?");
+            //MenuEntry optionsMenuEntry = new MenuEntry("Options");
             MenuEntry exitMenuEntry = new MenuEntry("Exit");
            
             playGameMenuEntry.Selected += PlayGameMenuEntrySelected;
-            optionsMenuEntry.Selected += OptionsMenuEntrySelected;
+            //optionsMenuEntry.Selected += OptionsMenuEntrySelected;
             exitMenuEntry.Selected += OnCancel;
            
             MenuEntries.Add(playGameMenuEntry);
-            MenuEntries.Add(optionsMenuEntry);
+            //MenuEntries.Add(optionsMenuEntry);
             MenuEntries.Add(exitMenuEntry);
         }
 

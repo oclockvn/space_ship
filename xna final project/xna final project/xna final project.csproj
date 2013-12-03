@@ -113,13 +113,16 @@
     <Compile Include="gameplay objects\Bullet.cs" />
     <Compile Include="gameplay objects\EnemyShip.cs" />
     <Compile Include="gameplay objects\Explosion.cs" />
+    <Compile Include="gameplay objects\FinalBoss.cs" />
     <Compile Include="gameplay objects\PlayerShip.cs" />
+    <Compile Include="gameplay objects\PowerUp.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="screen manager\GameScreen.cs" />
     <Compile Include="screen manager\InputState.cs" />
     <Compile Include="screen manager\ScreenManager.cs" />
     <Compile Include="screens\BackgroundScreen.cs" />
+    <Compile Include="screens\ExitScreen.cs" />
     <Compile Include="screens\GameplayScreen.cs" />
     <Compile Include="screens\LoadingScreen.cs" />
     <Compile Include="screens\MainMenuScreen.cs" />
@@ -129,6 +132,7 @@
     <Compile Include="screens\OptionMenuScreen.cs" />
     <Compile Include="screens\PauseMenuScreen.cs" />
     <Compile Include="screens\PlayerIndexEventArgs.cs" />
+    <Compile Include="screens\WonGameScreen.cs" />
     <Compile Include="SpaceShip.cs" />
   </ItemGroup>
   <ItemGroup>

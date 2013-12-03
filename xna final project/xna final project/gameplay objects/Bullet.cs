@@ -6,6 +6,7 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework.Content;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
+using xna_final_project.screens;
 
 namespace xna_final_project.gameplay_objects
 {
@@ -16,6 +17,7 @@ namespace xna_final_project.gameplay_objects
         public int velocity = 5;
         public bool isAlive = true;
         public Rectangle rectangle;
+        public int kind = 0;
 
         public Bullet()
         { }
@@ -27,7 +29,30 @@ namespace xna_final_project.gameplay_objects
 
         public void Update(GameTime gameTime)
         {
-            this.location.Y -= velocity;
+            if (kind == 0 || kind == 1 || kind == 2)
+            {
+                this.location.Y -= velocity;
+            }
+            
+            if (kind == 3)
+            {
+                this.location.Y -= velocity;
+                this.location.X -= velocity;
+            }
+            if (kind == 4)
+            {
+                this.location.Y -= velocity;
+                this.location.X += velocity;
+            }
+            if (kind==5)
+            {
+                this.location.Y += velocity;
+            }
+            //if (GameplayScreen.powerUpLevel == 2)
+            //{
+            //    this.location.X += velocity;
+            //}
+            
             rectangle = new Rectangle((int)location.X, (int)location.Y, texture.Width, texture.Height);
         }
 

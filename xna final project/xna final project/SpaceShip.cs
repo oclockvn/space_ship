@@ -28,6 +28,7 @@ namespace xna_final_project
             Content.RootDirectory = "Content";
             graphics.PreferredBackBufferWidth = 960;
             graphics.PreferredBackBufferHeight = 630;
+            this.IsMouseVisible = true;
             graphics.ApplyChanges();
             screenManager = new ScreenManager(this);
 

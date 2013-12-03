@@ -8,6 +8,7 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using xna_final_project.screen_manager;
 using Microsoft.Xna.Framework.Audio;
+using xna_final_project.screens;
 
 namespace xna_final_project.gameplay_objects
 {
@@ -32,6 +33,7 @@ namespace xna_final_project.gameplay_objects
         public Rectangle rectangle;
         public List<Bullet> bullets = new List<Bullet>();
         public ShipState shipState;
+        
         //public int currentTextureIndex = 0;
         SoundEffect shootSound;
 
@@ -52,8 +54,8 @@ namespace xna_final_project.gameplay_objects
             this.textures.Add(shipMoveFoward);
 
             shootSound = content.Load<SoundEffect>("Sounds/ship_shooting");
-
-            this.location = new Vector2(480, 600);
+            
+            this.location = new Vector2(480, 520);
             this.content = content;
         }
 
@@ -63,6 +65,73 @@ namespace xna_final_project.gameplay_objects
             bullet.LoadContent(content);
             bullet.location = this.location + new Vector2(25, 0);
             bullets.Add(bullet);
+            if (GameplayScreen.powerUpLevel == 1)
+            {
+                Bullet bulletbonus1 = new Bullet();
+                bulletbonus1.LoadContent(content);
+                bulletbonus1.location = this.location + new Vector2(50, 0);
+                bullets.Add(bulletbonus1);
+            }
+
+            if (GameplayScreen.powerUpLevel == 2)
+            {
+                Bullet bulletbonus1 = new Bullet();
+                bulletbonus1.LoadContent(content);
+                bulletbonus1.location = this.location + new Vector2(50, 0);
+                bullets.Add(bulletbonus1);
+
+                Bullet bulletbonus2 = new Bullet();
+                bulletbonus2.LoadContent(content);
+                bulletbonus2.location = this.location + new Vector2(0, 0);
+                bullets.Add(bulletbonus2);
+            }
+
+            if (GameplayScreen.powerUpLevel == 3)
+            {
+                Bullet bulletbonus1 = new Bullet();
+                bulletbonus1.LoadContent(content);
+                bulletbonus1.location = this.location + new Vector2(50, 0);
+                bullets.Add(bulletbonus1);
+
+                Bullet bulletbonus2 = new Bullet();
+                bulletbonus2.LoadContent(content);
+                bulletbonus2.location = this.location + new Vector2(0, 0);
+                bullets.Add(bulletbonus2);
+
+                Bullet bulletbonus3 = new Bullet();
+                bulletbonus3.LoadContent(content);
+                bulletbonus3.location = this.location + new Vector2(0, 0);
+                bulletbonus3.kind = 3;
+                bullets.Add(bulletbonus3);
+            }
+
+            if (GameplayScreen.powerUpLevel == 4)
+            {
+                Bullet bulletbonus1 = new Bullet();
+                bulletbonus1.LoadContent(content);
+                bulletbonus1.location = this.location + new Vector2(50, 0);
+                bullets.Add(bulletbonus1);
+
+                Bullet bulletbonus2 = new Bullet();
+                bulletbonus2.LoadContent(content);
+                bulletbonus2.location = this.location + new Vector2(0, 0);
+                bullets.Add(bulletbonus2);
+
+                Bullet bulletbonus3 = new Bullet();
+                bulletbonus3.LoadContent(content);
+                bulletbonus3.location = this.location + new Vector2(-5, 0);
+                bulletbonus3.kind = 3;
+                bullets.Add(bulletbonus3);
+
+                Bullet bulletbonus4 = new Bullet();
+                bulletbonus4.LoadContent(content);
+                bulletbonus4.location = this.location + new Vector2(65, -15);
+                bulletbonus4.kind = 4;
+                bullets.Add(bulletbonus4);
+            }
+
+           
+
         }
 
         public void Update(GameTime gameTime)
@@ -75,7 +144,7 @@ namespace xna_final_project.gameplay_objects
                 shipState = ShipState.Up;
                 //currentTextureIndex = 3;
             }
-            if (keyState.IsKeyDown(Keys.Down) && this.location.Y < 600)
+            if (keyState.IsKeyDown(Keys.Down) && this.location.Y < 530)
             {
                 this.location.Y += velocity;
                 shipState = ShipState.Down;
@@ -103,6 +172,7 @@ namespace xna_final_project.gameplay_objects
             foreach (Bullet bullet in bullets)
 	        {
                 bullet.Update(gameTime);
+                                
 	        }
 
             if (keyState.IsKeyDown(Keys.Space))
@@ -147,11 +217,11 @@ namespace xna_final_project.gameplay_objects
 
             foreach (Bullet bullet in bullets)
             {
-                bullet.Draw(spriteBatch);
-                //if (bullet.isAlive)
-                //{
-                    
-                //}
+                
+                if (bullet.isAlive)
+                {
+                    bullet.Draw(spriteBatch);
+                }
                 
             }
         }

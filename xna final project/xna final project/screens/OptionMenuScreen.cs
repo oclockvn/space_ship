@@ -56,20 +56,20 @@ namespace xna_final_project.screens
             back.Selected += OnCancel;
 
             // Add entries to the menu.
-            MenuEntries.Add(ungulateMenuEntry);
+            //MenuEntries.Add(ungulateMenuEntry);
             MenuEntries.Add(languageMenuEntry);
             MenuEntries.Add(frobnicateMenuEntry);
-            MenuEntries.Add(elfMenuEntry);
+            //MenuEntries.Add(elfMenuEntry);
             MenuEntries.Add(back);
         }
 
 
         void SetMenuEntryText()
         {
-            ungulateMenuEntry.Text = "Preferred ungulate: " + currentUngulate;
+            //ungulateMenuEntry.Text = "Member name: " + currentUngulate;
             languageMenuEntry.Text = "Group Information: " + groupInformation[currentLanguage];
-            frobnicateMenuEntry.Text = "Frobnicate: " + (frobnicate ? "on" : "off");
-            elfMenuEntry.Text = "elf: " + elf;
+            frobnicateMenuEntry.Text = "Sound: " + (frobnicate ? "on" : "off");
+            //elfMenuEntry.Text = "elf: " + elf;
         }
 
 

@@ -74,11 +74,11 @@ namespace xna_final_project.gameplay_objects
         public void Update(GameTime gameTime)
         {
             positionFront01.Y++;
-            if (positionFront01.Y >= 720)
-                positionFront01.Y = -720;
+            if (positionFront01.Y >= 630)
+                positionFront01.Y = -630;
             positionFront02.Y++;
-            if (positionFront02.Y >= 720)
-                positionFront02.Y = -720;
+            if (positionFront02.Y >= 630)
+                positionFront02.Y = -630;
         }
 
         public void Draw(SpriteBatch spriteBatch)
